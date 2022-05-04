@@ -21,26 +21,26 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**𝐈'𝐦 𝐓𝐚𝐠𝐀𝐥𝐥 𝐁𝐨𝐭**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [❛-𝐌𝐑'𝐁𝐀𝐍𝐍𝐀 🚬 𝐊𝐈𝐍𝐆-𝐱𝐃 °](https://t.me/BANNA_XD) 𝗢𝗻 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦",
+    "__**𝐈'𝐦 𝐓𝐚𝐠𝐀𝐥𝐥 𝐁𝐨𝐭**, 𝐢 𝐂𝐚𝐧 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 👻\n𝐂𝐥𝐢𝐜𝐤 **/help** 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__\n\n 𝐅𝐨𝐥𝐥𝐨𝐰 [༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★](https://t.me/TERA_BAAP_KATIL) 𝗢𝗻 𝐓𝐞𝐥𝐞𝐆𝐫𝐚𝐦",
     link_preview=False,
     buttons=(
       [
-        Button.url('✨ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ', 'https://t.me/love_birds_group'),
-        Button.url('😎 𝐎𝐖𝐍𝐄𝐑', 'https://t.me/BANNA_XD')
+        Button.url('📨𝐆𝐫𝐨𝐮𝐩⭐', 'https://t.me/FULL_MASTI_CLUBS'),
+        Button.url('📨𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡', 'https://t.me/HEARTBROKENPERSON1')
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of TagAllBot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nFollow [❛-𝐌𝐑'𝐁𝐀𝐍𝐍𝐀 🚬 𝐊𝐈𝐍𝐆-𝐱𝐃 °](https://t.me/BANNA_XD) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
+  helptext = "**Help Menu of TagAllBot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\nExample: `/all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nUse /cancel To Stop Tagging in group\n\nFollow [༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★](https://t.me/TERA_BAAP_KATIL) 𝗢𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('✨ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ', 'https://t.me/love_birds_group'),
-        Button.url('😎 𝐎𝐖𝐍𝐄𝐑', 'https://t.me/BANNA_XD')
+        Button.url('📨𝐆𝐫𝐨𝐮𝐩⭐ ', 'https://t.me/FULL_MASTI_CLUBS'),
+        Button.url('📨𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡', 'https://t.me/HEARTBROKENPERSON1')
       ]
     )
   )
@@ -49,7 +49,7 @@ async def help(event):
 async def all(event):
   chat_id = event.chat_id
   if event.is_private:
-    return await event.respond("__This command Can Be Use In Groups And Channels @love_birds_group !__")
+    return await event.respond("__This command Can Be Use In Groups And Channels @FULL_MASTI_CLUBS !__")
   
   is_admin = False
   try:
@@ -84,7 +84,7 @@ async def all(event):
     if msg == None:
         return await event.respond("__I Can't Mention Members For Older Messages! (messages which are sent before I'm added to group)__")
   else:
-    return await event.respond("__Reply To a Message Or Give Me Some Text To Mention Others\n\nMade bY @love_birds_group !__")
+    return await event.respond("__Reply To a Message Or Give Me Some Text To Mention Others\n\nMade bY @FULL_MASTI_CLUBS !__")
   
   spam_chats.append(chat_id)
   usrnum = 0
@@ -96,7 +96,7 @@ async def all(event):
     usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
     if usrnum == 5:
       if mode == "text_on_cmd":
-        txt = f"{usrtxt}\n\n{msg}\n\nMade bY ❛-𝐌𝐑'𝐁𝐀𝐍𝐍𝐀 🚬 𝐊𝐈𝐍𝐆-𝐱𝐃 ° ✌️🔥"
+        txt = f"{usrtxt}\n\n{msg}\n\nMade bY ★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★"
         await client.send_message(chat_id, txt)
       elif mode == "text_on_reply":
         await msg.reply(usrtxt)
@@ -111,7 +111,7 @@ async def all(event):
 @client.on(events.NewMessage(pattern="^/cancel$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
-    return await event.respond('__There Is No Proccess On Going @love_birds_group...__')
+    return await event.respond('__There Is No Proccess On Going @FULL_MASTI_CLUBS...__')
   else:
     try:
       spam_chats.remove(event.chat_id)
@@ -119,5 +119,5 @@ async def cancel_spam(event):
       pass
     return await event.respond('__Stopped.__')
 
-print(">> HACKER TAGALL STARTED @love_birds_group<<")
+print(">> KATIL TAGALL STARTED @FULL_MASTI_CLUBS<<")
 client.run_until_disconnected()
