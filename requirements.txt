@@ -1,0 +1,6 @@
+#KATIL
+telethon
+cryptg
+asyncio
+telegraph
+requests
