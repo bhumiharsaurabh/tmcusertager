@@ -8,7 +8,7 @@
 </p>
 <p><a href="https://t.me/HEARTBROKENPERSON1"><img src="https://img.shields.io/badge/Join-Official%20Channel-blue.svg?style=for-the-badge&logo=Telegram">
 </p>
-<p align="center"><a href="https://t.me/FULL_MASTI_CLUBS"><img src="LOGO" width="300"></a></p>
+<p><a href="https://t.me/FULL_MASTI_CLUBS"><img src="LOGO" width="300"></a></p>
 
 
 <p>
