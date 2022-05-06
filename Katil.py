@@ -71,7 +71,7 @@ async def all(event):
     ):
       is_admin = True
   if not is_admin:
-    return await event.respond("__Only Admins Can Mention All\n\nFor More Go On @love_birds_group !__")
+    return await event.respond("__Only Admins Can Mention All\n\nFor More Go On @FULL_MASTI_CLUBS !__")
   
   if event.pattern_match.group(1) and event.is_reply:
     return await event.respond("__Give me one argument!__")
